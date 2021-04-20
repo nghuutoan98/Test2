@@ -183,7 +183,6 @@ export class Game extends Node {
     hide(item){
         if(item) document.getElementById(item.id).style.display = 'none';
     }
-
     reset(){
         clickedImg = [];
         countClick = 0;
